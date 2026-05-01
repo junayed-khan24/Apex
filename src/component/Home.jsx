@@ -1,9 +1,10 @@
 import React from 'react';
+import Contact from './Contact';
 
 const Home = () => {
     return (
         <div>
-            <h3 className='text-5xl text-center text-red-950 font-bold'>Welcome to the Home Page</h3>
+           <Contact></Contact>
         </div>
     );
 };
