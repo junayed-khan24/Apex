@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaLinkedinIn, FaFacebookF, FaInstagram, FaPaperPlane } from "react-icons/fa";
+import "aos/dist/aos.css";
+import Aos from "aos";
+
 
 const Footer = () => {
+     useEffect(() => {
+        Aos.init({
+          duration: 1000,
+          once: true,
+        });
+      }, []);
+
   return (
-    <footer className="bg-[#2c3472] text-white px-6 md:px-16 py-12">
+    <footer className="bg-[#1F2B6C] text-white px-6 md:px-16 py-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
 
         {/* Logo + Description */}
-        <div>
+        <div data-aos="fade-up" className="col-span-1">
           <h2 className="text-2xl font-bold mb-3 tracking-wide">
             MEDDICAL
           </h2>
@@ -17,7 +27,7 @@ const Footer = () => {
         </div>
 
         {/* Important Links */}
-        <div>
+        <div data-aos="fade-up" className="col-span-1">
           <h3 className="font-semibold mb-4">Important Links</h3>
           <ul className="space-y-2 text-sm text-gray-300">
             <li className="hover:text-white cursor-pointer">Appointment</li>
@@ -28,7 +38,7 @@ const Footer = () => {
         </div>
 
         {/* Contact */}
-        <div>
+        <div data-aos="fade-up" className="col-span-1">
           <h3 className="font-semibold mb-4">Contact Us</h3>
           <p className="text-sm text-gray-300">Call: (237) 681-812-255</p>
           <p className="text-sm text-gray-300">
@@ -41,7 +51,7 @@ const Footer = () => {
         </div>
 
         {/* Newsletter */}
-        <div>
+        <div data-aos="fade-up" className="col-span-1">
           <h3 className="font-semibold mb-4">Newsletter</h3>
           <div className="flex items-center bg-white rounded-md overflow-hidden">
             <input
