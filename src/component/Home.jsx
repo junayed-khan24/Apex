@@ -1,12 +1,20 @@
-import React from 'react';
-import Contact from './Contact';
-import Footer from './Footer';
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Home = () => {
+    const { t } = useTranslation();
+
     return (
         <div>
-           <Contact></Contact>
-           <Footer></Footer>
+            <div className="flex flex-col items-center justify-center h-screen">
+                <div className="mt-4">
+                    <LanguageSwitcher></LanguageSwitcher>
+                </div>
+                <div>
+                    <h1>{t("home")}</h1>
+                    <p>{t("welcome")}</p>
+                </div>
+            </div>
         </div>
     );
 };
