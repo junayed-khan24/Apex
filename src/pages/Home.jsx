@@ -5,10 +5,12 @@ export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <div className=" flex flex-col items-center gap-6 p-6 text-center">
+    <div className=" ">
 
+       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bourder-2 ">
+        <Hero></Hero>   <p className="">{t("home.desc")}</p>   
+       </div>
        
-      <Hero></Hero>   <p className="w-6/12 h-full">{t("home.desc")}</p>    
 
     </div>
   );
