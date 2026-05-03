@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../../src/assets/Hero2.png'
+import Logo from '../../src/assets/logo.png'
 
 const Header = () => {
   return (
@@ -11,16 +11,16 @@ const Header = () => {
             <img
               src={Logo}
               alt="Institution Logo"
-              className="h-16 object-contain rounded-full  shadow-lg mx-auto"
+              className="h-32 object-contain rounded-full  shadow-lg mx-auto"
             />
           </div>
 
 
 
           {/* Left Section */}
-          <div className="text-center md:text-left  ">
-            <h1 className="text-xl md:text-2xl font-extrabold">
-              আলহাজ্ব শেখ গিয়াস উদ্দিন আহমদ নুরানী হাফিজিয়া মাদ্রাসা ও এতিমখানা
+          <div className="text-center  ">
+            <h1 className="text-xl md:text-5xl font-extrabold capitalize">
+              Al Ghiyas Madrasa and Orphanage
             </h1>
             {/* <p className="text-sm opacity-90">
              Sahora,Mymensingh,  Bangladesh
