@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "donate": "Donate",
+    "mission": "Mission",
+    "picture": "Gallery"
+  },
+  "home": {
+    "title": "Madrasa Orphanage",
+    "desc": "We support orphan children with education and care.",
+    "donateBtn": "Donate Now",
+    "education": "Islamic & Modern Education",
+    "food": "Healthy Food",
+    "shelter": "Safe Shelter"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Your Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "donate": {
+    "title": "Donate Now",
+    "p1": "Provide meals",
+    "p2": "Support education",
+    "p3": "Full support"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "desc": "We build better future for orphan children."
+  },
+  "picture": {
+    "title": "Gallery"
+  }
+}
