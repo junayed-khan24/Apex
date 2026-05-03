@@ -7,7 +7,7 @@ import Mission from "./pages/Mission";
 import Picture from "./pages/Picture";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import Navbar from "./component/Navbar";
+import NavHeader from "./pages/NavHeader";
 
 function App() {
   const { i18n } = useTranslation();
@@ -21,7 +21,8 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Navbar></Navbar>
+
+    <NavHeader></NavHeader>
 
       <Routes>
         <Route path="/" element={<Home />} />

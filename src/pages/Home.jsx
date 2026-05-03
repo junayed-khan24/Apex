@@ -1,22 +1,15 @@
 import { useTranslation } from "react-i18next";
+import Hero from "./Hero";
 
 export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <div className="p-6 text-center space-y-6">
-      <h1 className="text-4xl font-bold">{t("home.title")}</h1>
-      <p>{t("home.desc")}</p>
+    <div className=" flex flex-col items-center gap-6 p-6 text-center">
 
-      <button className="btn btn-primary">
-        {t("home.donateBtn")}
-      </button>
+       
+      <Hero></Hero>   <p className="w-6/12 h-full">{t("home.desc")}</p>    
 
-      <div className="grid md:grid-cols-3 gap-4">
-        <div className="card shadow p-4">{t("home.education")}</div>
-        <div className="card shadow p-4">{t("home.food")}</div>
-        <div className="card shadow p-4">{t("home.shelter")}</div>
-      </div>
     </div>
   );
 }

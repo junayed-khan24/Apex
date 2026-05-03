@@ -31,7 +31,14 @@
     "title": "Our Mission",
     "desc": "We build better future for orphan children."
   },
-  "picture": {
-    "title": "Gallery"
-  }
+    "picture": {
+      "title": "Gallery",
+      "picture1": "Madrasa Building",
+      "picture2": "Old Building",
+      "picture3": "Madrasa Gate",
+      "picture4": "Madrasa Building",
+      "picture5": "Madrasa Pond",
+      "picture6": "Scene of Prayer (Monajat)"
+    }
+    
 }
