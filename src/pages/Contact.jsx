@@ -100,9 +100,6 @@ const Contact = () => {
 
           </div>
 
-          <div className="divider bg-amber-400"></div>
-
-
         </div>
 
 

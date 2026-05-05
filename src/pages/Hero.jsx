@@ -2,13 +2,16 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
+import img1 from "../assets/hero.jpeg";
+import img2 from "../assets/Hero3.png";
+import img3 from "../assets/hero2.png";
+import img4 from "../assets/madrasa1.png";
 
 const images = [
-  "../../src/assets/Hero2.png",
-  "../../src/assets/Hero3.png",
-  "../../src/assets/Hero.jpeg",
-  "../../src/assets/madrasa1.png",
-
+  img1,
+  img2,
+  img3,
+  img4
 ];
 
 // 🔥 clone first image at end
