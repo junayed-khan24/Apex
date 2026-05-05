@@ -4,14 +4,14 @@ import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 
 // 🔥 images import (important: direct import use korba)
-import madrasa from "../../src/assets/hero.png";
-import madrasa2 from "../../src/assets/hero.png";
-import hero from "../../src/assets/hero.png";
-import madrasa1 from "../../src/assets/hero.png";
-import group1 from "../../src/assets/hero.png";
-import pond2 from "../../src/assets/hero.png";
-import group2 from "../../src/assets/hero.png";
-import maktab from "../../src/assets/hero.png";
+import madrasa from "../../src/assets/madrasa.png";
+import hero from "../../src/assets/Hero.jpeg";
+import madrasa2 from "../../src/assets/madrasa2.png";
+import madrasa1 from "../../src/assets/madrasa1.png";
+import group1 from "../../src/assets/group1.jpeg";
+import pond2 from "../../src/assets/pond2.png";
+import group2 from "../../src/assets/group2.jpeg";
+import maktab from "../../src/assets/maktab.png";
 import pond from "../../src/assets/Hero3.png";
 
 const Photos = () => {
@@ -28,8 +28,8 @@ const Photos = () => {
   // 🔥 i18n + images combine
   const photos = [
     { id: 1, img: madrasa, title: t("picture.picture1") },
-    { id: 2, img: madrasa2, title: t("picture.picture2") },
     { id: 3, img: hero, title: t("picture.picture3") },
+    { id: 2, img: madrasa2, title: t("picture.picture2") },
     { id: 4, img: madrasa1, title: t("picture.picture4") },
     { id: 5, img: group1, title: t("picture.picture6") },
     { id: 6, img: pond2, title: t("picture.picture5") },

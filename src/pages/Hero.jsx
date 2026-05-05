@@ -110,7 +110,25 @@ const Hero = () => {
 
           </div>
 
-        
+          {/* Content */}
+          <div className="text-center lg:text-left">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#013622] mb-4">
+              মাদ্রাসার সংক্ষিপ্ত পরিচিতি
+            </h2>
+
+            <div className="divider text-gray-800"></div>
+
+            <p className="text-base md:text-lg text-gray-700 mb-6   break-all overflow-hidden text-clip line-clamp-">
+               আলহাজ্ব শেখ গিয়াস উদ্দিন আহমদ নুরানী হাফিজিয়া মাদ্রাসা ও এতিমখানা...
+              ইসলামী দ্বীনি শিক্ষা প্রতিষ্ঠান । প্রতিষ্ঠানটি বাংলাদেশের নেত্রকোনা জেলার কেন্দুয়া উপজেলায় মাসকা গ্রামে অবস্থিত। Aspernatur voluptatibus beatae incidunt, expedita, iure velit consequuntur quod saepe nostrum accusantium nisi excepturi, ipsa aperiam rem animi sequi  assumenda eveniet maxime possimus harum illum fugit. assumenda eveniet maxime possimus harum illum fugit.
+            </p>
+
+            <Link to="/about">
+              <button className="btn bg-[#013622] text-white px-8 hover:bg-yellow-600 transition-all duration-300">
+                বিস্তারিত
+              </button>
+            </Link>
+          </div>
 
         </div>
       </div>
