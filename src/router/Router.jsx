@@ -1,36 +1,36 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "../pages/Home";
-import Contact from "../pages/Contact";
-import Donate from "../pages/Donate";
-import Mission from "../pages/Mission";
-import Picture from "../pages/Picture";
-import { useEffect } from "react";
-import { useTranslation } from "react-i18next";
-import Navbar from "../component/Navbar";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Home from "../pages/Home";
+// import Contact from "../pages/Contact";
+// import Donate from "../pages/Donate";
+// import Picture from "../pages/Picture";
+// import { useEffect } from "react";
+// import { useTranslation } from "react-i18next";
+// import Navbar from "../component/Navbar";
+// import About from "../pages/About";
 
-function Router() {
-  const { i18n } = useTranslation();
+// function Router() {
+//   const { i18n } = useTranslation();
 
-  useEffect(() => {
-    document.documentElement.dir =
-      i18n.language === "ar" ? "rtl" : "ltr";
+//   useEffect(() => {
+//     document.documentElement.dir =
+//       i18n.language === "ar" ? "rtl" : "ltr";
 
-    document.documentElement.lang = i18n.language;
-  }, [i18n.language]);
+//     document.documentElement.lang = i18n.language;
+//   }, [i18n.language]);
 
-  return (
-    <BrowserRouter>
-      <Navbar></Navbar>
+//   return (
+//     <BrowserRouter>
+//       <Navbar></Navbar>
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/donate" element={<Donate />} />
-        <Route path="/mission" element={<Mission />} />
-        <Route path="/picture" element={<Picture />} />
-      </Routes>
-    </BrowserRouter>
-  );
-}
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/contact" element={<Contact />} />
+//         <Route path="/donate" element={<Donate />} />
+//         <Route path="/about" element={<About />} />
+//         <Route path="/picture" element={<Picture />} />
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// }
 
-export default Router;
+// export default Router;

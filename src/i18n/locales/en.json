@@ -3,7 +3,7 @@
     "home": "Home",
     "contact": "Contact",
     "donate": "Donate",
-    "mission": "Mission",
+    "about": "About Us",
     "picture": "Gallery"
   },
   "home": {
@@ -22,13 +22,25 @@
     "send": "Send Message"
   },
   "donate": {
-    "title": "Donate Now",
-    "p1": "Provide meals",
-    "p2": "Support education",
-    "p3": "Full support"
+    "title1": "Support orphaned children and Islamic institutions—let your small donation be a hope for tomorrow 🤲",
+    "des1": "Your contribution can have a significant impact on the lives of orphaned children and the development of Islamic institutions. Every donation, no matter how small, helps provide essential needs such as food, education, and shelter. Through this support, you are not only improving the lives of vulnerable children but also contributing to the preservation and promotion of Islamic values. Your help will always remain a source of support for them.",
+
+
+    "title2": "Why Should You Donate?",
+    "des2": "Your support can make a meaningful difference in the lives of orphaned children and the growth of Islamic institutions. Every donation, no matter how small, can provide essential resources such as food, education, and shelter to those in need. By supporting these causes, you are not only helping to improve the lives of vulnerable children but also contributing to the preservation and promotion of Islamic values and teachings. Your generosity can be a beacon of hope for those who rely on these institutions for support and guidance." ,
+    "title3": "Under Construction Building",
+    "des3": "Our madrasa's new building is under construction, which will be able to provide shelter and education for many more orphan children once completed.",
+    "p1": "Total Building Area: 2,750 sq ft per floor",
+    "p2": "1st Floor Area: 2,750 sq ft",
+    "p3": "2nd Floor Area: 2,750 sq ft",
+    "p4": "Total Area (2 Floors): 5,500 sq ft",
+    "p5": "Cost per Square Foot: 3,500 BDT",
+    "p6": "Total Construction Cost: 5,500 × 3,500 = 19,250,000 BDT",
+    "p7": "In Words: One Crore Ninenty Two Lakh Fifty Thousand Taka"
+
   },
-  "mission": {
-    "title": "Our Mission",
+  "about": {
+    "title": "About Us",
     "desc": "We build better future for orphan children."
   },
     "picture": {

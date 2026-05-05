@@ -127,11 +127,13 @@ const Hero = () => {
             </p>
 
             <Link to="/about">
-              <button className="btn bg-[#013622] text-white px-8 hover:bg-yellow-600 transition-all duration-300">
+              <button className="btn  py-2 bg-[#013622] text-white px-8 hover:bg-yellow-600 transition-all duration-300">
                 বিস্তারিত
               </button>
             </Link>
           </div>
+
+          
 
         </div>
       </div>

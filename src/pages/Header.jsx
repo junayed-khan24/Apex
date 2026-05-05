@@ -4,8 +4,8 @@ import Logo from '../../src/assets/logo.png'
 const Header = () => {
   return (
     <header className="bg-[#013622]  text-white">
-      <div className="container mx-auto px-6 md:px-20 py-12">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12">
+      <div className="container mx-auto px-6 md:px-20 py-6  ">
+        <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12">
 
           <div className="text-center item-center ">
             <img
