@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 
-// ✅ FIX: proper Vite image import
+
 import hero2 from "../assets/Hero2.png";
 import hero3 from "../assets/Hero3.png";
 import madrasa1 from "../assets/madrasa1.png";
