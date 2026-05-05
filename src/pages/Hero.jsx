@@ -6,7 +6,6 @@ import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 const images = [
   "../../src/assets/Hero2.png",
   "../../src/assets/Hero3.png",
-  "../../src/assets/Hero.jpeg",
   "../../src/assets/madrasa1.png",
 
 ];
