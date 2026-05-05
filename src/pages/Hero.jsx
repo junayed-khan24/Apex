@@ -1,16 +1,15 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 
-const images = [
-  "../../src/assets/Hero2.png",
-  "../../src/assets/Hero3.png",
-  "../../src/assets/madrasa1.png",
+// ✅ FIX: proper Vite image import
+import hero2 from "../assets/Hero2.png";
+import hero3 from "../assets/Hero3.png";
+import madrasa1 from "../assets/madrasa1.png";
 
-];
+const images = [hero2, hero3, madrasa1];
 
-// 🔥 clone first image at end
+// clone first image
 const sliderImages = [...images, images[0]];
 
 const Hero = () => {
@@ -33,7 +32,6 @@ const Hero = () => {
 
   const prevSlide = () => {
     if (current === 0) {
-      // jump to last real slide
       setTransition(false);
       setCurrent(images.length - 1);
     } else {
@@ -42,13 +40,13 @@ const Hero = () => {
     }
   };
 
-  // 🔥 reset without animation
+  // reset loop
   useEffect(() => {
     if (current === images.length) {
       setTimeout(() => {
         setTransition(false);
         setCurrent(0);
-      }, 700); // same as duration
+      }, 700);
     }
   }, [current]);
 
@@ -73,21 +71,23 @@ const Hero = () => {
                   key={index}
                   src={img}
                   className="w-full h-full object-cover flex-shrink-0 hover:scale-105 transition duration-700"
+                  alt="slider"
                 />
               ))}
             </div>
 
-            {/* Buttons */}
+            {/* Prev */}
             <button
               onClick={prevSlide}
-              className="absolute left-3 top-1/2 -translate-y-1/2  text-white/60 hover:text-white text-4xl p-2 "
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-white/60 hover:text-white text-4xl p-2"
             >
-              <GoChevronLeft></GoChevronLeft>
+              <GoChevronLeft />
             </button>
 
+            {/* Next */}
             <button
               onClick={nextSlide}
-              className="absolute right-3 top-1/2 -translate-y-1/2  text-white/60 hover:text-white p-2  text-4xl"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-white/60 hover:text-white text-4xl p-2"
             >
               <GoChevronRight />
             </button>
@@ -106,7 +106,6 @@ const Hero = () => {
                 />
               ))}
             </div>
-
           </div>
 
           {/* Content */}
@@ -117,9 +116,9 @@ const Hero = () => {
 
             <div className="divider text-gray-800"></div>
 
-            <p className="text-base md:text-lg text-gray-700 mb-6   break-all overflow-hidden text-clip line-clamp-">
-               আলহাজ্ব শেখ গিয়াস উদ্দিন আহমদ নুরানী হাফিজিয়া মাদ্রাসা ও এতিমখানা...
-              ইসলামী দ্বীনি শিক্ষা প্রতিষ্ঠান । প্রতিষ্ঠানটি বাংলাদেশের নেত্রকোনা জেলার কেন্দুয়া উপজেলায় মাসকা গ্রামে অবস্থিত। Aspernatur voluptatibus beatae incidunt, expedita, iure velit consequuntur quod saepe nostrum accusantium nisi excepturi, ipsa aperiam rem animi sequi  assumenda eveniet maxime possimus harum illum fugit. assumenda eveniet maxime possimus harum illum fugit.
+            <p className="text-base md:text-lg text-gray-700 mb-6">
+              আলহাজ্ব শেখ গিয়াস উদ্দিন আহমদ নুরানী হাফিজিয়া মাদ্রাসা ও এতিমখানা...
+              ইসলামী দ্বীনি শিক্ষা প্রতিষ্ঠান । প্রতিষ্ঠানটি বাংলাদেশের নেত্রকোনা জেলার কেন্দুয়া উপজেলায় মাসকা গ্রামে অবস্থিত।
             </p>
 
             <Link to="/about">
