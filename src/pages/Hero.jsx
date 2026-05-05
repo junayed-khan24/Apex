@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
-import img1 from "../../src/assets/hero.jpeg";
+
+import img1 from "../../src/assets/madrasa2.png";
 import img2 from "../../src/assets/Hero3.png";
 import img3 from "../../src/assets/Hero2.png";
 import img4 from "../../src/assets/madrasa.png";
 
-const images = [
+  const images = [
   img1,
   img2,
   img3,
