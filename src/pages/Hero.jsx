@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
-import img1 from "../assets/hero.jpeg";
-import img2 from "../assets/Hero3.png";
-import img3 from "../assets/hero2.png";
-import img4 from "../assets/madrasa1.png";
+import img1 from "../../src/assets/hero.jpeg";
+import img2 from "../../src/assets/Hero3.png";
+import img3 from "../../src/assets/Hero2.png";
+import img4 from "../../src/assets/madrasa.png";
 
 const images = [
   img1,
