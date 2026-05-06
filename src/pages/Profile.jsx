@@ -40,7 +40,7 @@ const Profile = () => {
 
   return (
     <div className="bg-white py-12 px-4">
-      <div className="max-w-7xl mx-auto px-4 md:px-10">
+      <div className="container mx-auto px-6 md:px-20">
 
         {/* Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

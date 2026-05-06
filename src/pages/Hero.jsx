@@ -115,15 +115,14 @@ const Hero = () => {
 
           {/* Content */}
           <div className="text-center lg:text-left">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#013622] mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#013622] mb-8">
               মাদ্রাসার সংক্ষিপ্ত পরিচিতি
             </h2>
 
             <div className="divider text-gray-800"></div>
 
             <p className="text-base md:text-lg text-gray-700 mb-6   break-all overflow-hidden text-clip line-clamp-">
-               আলহাজ্ব শেখ গিয়াস উদ্দিন আহমদ নুরানী হাফিজিয়া মাদ্রাসা ও এতিমখানা...
-              ইসলামী দ্বীনি শিক্ষা প্রতিষ্ঠান । প্রতিষ্ঠানটি বাংলাদেশের নেত্রকোনা জেলার কেন্দুয়া উপজেলায় মাসকা গ্রামে অবস্থিত। Aspernatur voluptatibus beatae incidunt, expedita, iure velit consequuntur quod saepe nostrum accusantium nisi excepturi, ipsa aperiam rem animi sequi  assumenda eveniet maxime possimus harum illum fugit. assumenda eveniet maxime possimus harum illum fugit.
+              আলহাজ্ব শেখ গিয়াস উদ্দিন আহমদ নুরানী হাফিজিয়া মাদ্রাসা ও এতিমখানা একটি স্বনামধন্য ইসলামী দ্বীনি শিক্ষা প্রতিষ্ঠান। এটি বাংলাদেশের নেত্রকোনা জেলার কেন্দুয়া উপজেলার মাসকা গ্রামে অবস্থিত। এখানে শিশুদের কুরআন হিফজ, নুরানী কায়দা, তাজবিদসহ মৌলিক দ্বীনি শিক্ষা প্রদান করা হয়। এতিম ও অসহায় শিশুদের থাকা-খাওয়ার সুব্যবস্থা রয়েছে। প্রতিষ্ঠানটি সুশৃঙ্খল পরিবেশে নৈতিক ও আদর্শিক শিক্ষার মাধ্যমে যোগ্য নাগরিক গড়ে তুলতে নিরলসভাবে কাজ করে যাচ্ছে।
             </p>
 
             <Link to="/about">

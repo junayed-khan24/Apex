@@ -106,13 +106,18 @@ const Navbar = () => {
                         {t("nav.home")}
                     </NavLink>
 
+                     <NavLink to="/donate" className="block px-4 py-3 border-b border-[#032216] hover:bg-yellow-600 transition-all duration-300">
+                        {t("nav.donate")}
+                    </NavLink>
+
                     <NavLink to="/about" className="block px-4 py-3 border-b border-[#032216] hover:bg-yellow-600 transition-all duration-300">
                         {t("nav.about")}
                     </NavLink>
 
-                    <NavLink to="/donate" className="block px-4 py-3 border-b border-[#032216] hover:bg-yellow-600 transition-all duration-300">
-                        {t("nav.donate")}
+                    <NavLink to="/picture" className="block px-4 py-3 border-b border-[#032216] hover:bg-yellow-600 transition-all duration-300">
+                        {t("nav.picture")}
                     </NavLink>
+                   
 
                     <NavLink to="/contact" className="block px-4 py-3 border-b border-[#032216] hover:bg-yellow-600 transition-all duration-300">
                         {t("nav.contact")}
