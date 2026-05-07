@@ -6,8 +6,9 @@ import img1 from "../../src/assets/madrasa2.png";
 import img2 from "../../src/assets/Hero3.png";
 import img3 from "../../src/assets/Hero2.png";
 import img4 from "../../src/assets/madrasa.png";
+import { useTranslation } from "react-i18next";
 
-  const images = [
+const images = [
   img1,
   img2,
   img3,
@@ -56,6 +57,11 @@ const Hero = () => {
     }
   }, [current]);
 
+
+
+    const { t } = useTranslation();
+  
+
   return (
     <section className="w-full bg-base-100 py-10">
       <div className="container mx-auto px-6 md:px-20">
@@ -65,9 +71,8 @@ const Hero = () => {
           <div className="relative w-full h-[260px] sm:h-[320px] md:h-[360px] overflow-hidden shadow-lg">
 
             <div
-              className={`flex h-full ${
-                transition ? "transition-transform duration-700 ease-in-out" : ""
-              }`}
+              className={`flex h-full ${transition ? "transition-transform duration-700 ease-in-out" : ""
+                }`}
               style={{
                 transform: `translateX(-${current * 100}%)`,
               }}
@@ -102,11 +107,10 @@ const Hero = () => {
                 <button
                   key={index}
                   onClick={() => setCurrent(index)}
-                  className={`w-6 h-[3px] ${
-                    current % images.length === index
+                  className={`w-6 h-[3px] ${current % images.length === index
                       ? "bg-white scale-125"
                       : "bg-white/40"
-                  }`}
+                    }`}
                 />
               ))}
             </div>
@@ -116,23 +120,23 @@ const Hero = () => {
           {/* Content */}
           <div className="text-center lg:text-left">
             <h2 className="text-2xl md:text-3xl font-bold text-[#013622] mb-8">
-              মাদ্রাসার সংক্ষিপ্ত পরিচিতি
+              {t("home.title1")}
             </h2>
 
             <div className="divider text-gray-800"></div>
 
             <p className="text-base md:text-lg text-gray-700 mb-6   break-all overflow-hidden text-clip line-clamp-">
-              আলহাজ্ব শেখ গিয়াস উদ্দিন আহমদ নুরানী হাফিজিয়া মাদ্রাসা ও এতিমখানা একটি স্বনামধন্য ইসলামী দ্বীনি শিক্ষা প্রতিষ্ঠান। এটি বাংলাদেশের নেত্রকোনা জেলার কেন্দুয়া উপজেলার মাসকা গ্রামে অবস্থিত। এখানে শিশুদের কুরআন হিফজ, নুরানী কায়দা, তাজবিদসহ মৌলিক দ্বীনি শিক্ষা প্রদান করা হয়। এতিম ও অসহায় শিশুদের থাকা-খাওয়ার সুব্যবস্থা রয়েছে। প্রতিষ্ঠানটি সুশৃঙ্খল পরিবেশে নৈতিক ও আদর্শিক শিক্ষার মাধ্যমে যোগ্য নাগরিক গড়ে তুলতে নিরলসভাবে কাজ করে যাচ্ছে।
+              {t("home.desc1")}
             </p>
 
             <Link to="/about">
               <button className="btn  py-2 bg-[#013622] text-white px-8 hover:bg-yellow-600 transition-all duration-300">
-                বিস্তারিত
+                {t("home.btn")}
               </button>
             </Link>
           </div>
 
-          
+
 
         </div>
       </div>

@@ -7,13 +7,16 @@
     "picture": "Gallery"
   },
   "home": {
-    "title": "Madrasa Orphanage",
-    "desc": "We support orphan children with education and care.",
+    "title1": "Brief Introduction of the Madrasa",
+    "desc1": "Alhaj Sheikh Gias Uddin Ahmed Noorani Hifzia Madrasa and Orphanage is an Islamic educational institution located in Maska village of Kendua upazila of Netrokona district. It provides proper accommodation, food, clothing and education to orphans, helpless and underprivileged children. The institution works tirelessly to develop the morals, ideals and human values ​​of children in a disciplined, peaceful and Islamic environment. Under the supervision of experienced teachers, students acquire good character and manners along with Islamic education.",
+    "btn": "Read More",
     "donateBtn": "Donate Now",
     "education": "Islamic & Modern Education",
     "food": "Healthy Food",
     "shelter": "Safe Shelter"
   },
+
+
   "contact": {
     "title": "Contact Us",
     "name": "Your Name",
@@ -39,6 +42,8 @@
     "p7": "In Words: One Crore Ninenty Two Lakh Fifty Thousand Taka"
 
   },
+
+
   "about": {
     "title": "About Us",
     "desc": "We build better future for orphan children."
