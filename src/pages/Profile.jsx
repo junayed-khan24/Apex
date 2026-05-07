@@ -33,7 +33,7 @@ const Profile = () => {
           {/* Title */}
         <h2
           data-aos="fade-down"
-          className="text-xl md:text-3xl text-[#013622]  font-semibold  "
+          className="text-xl md:text-3xl text-[#013622]  font-extrabold  "
         >
           গিয়াস উদ্দিন আহমদ হাফিজিয়া মাদ্রাসা সংক্ষিপ্ত পরিচিতি
         </h2>

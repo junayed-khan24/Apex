@@ -119,7 +119,7 @@ const Hero = () => {
 
           {/* Content */}
           <div className="text-left">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#013622] mb-8 border-2-b pb-2 border-gray-300">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#013622] mb-8 border-b-2 pb-2 border-gray-300">
               {t("home.title1")}
             </h2>
 
