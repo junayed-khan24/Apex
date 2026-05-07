@@ -56,6 +56,27 @@
       "picture4": "Madrasa Building",
       "picture5": "Madrasa Pond",
       "picture6": "Scene of Prayer (Monajat)"
-    }
+    },
+
+    "profile": {
+        "title1": "Abdullah Al Mamun",
+    "p1": "President/Chairman",
+
+    "title3": "Mufti Arif Rabbani",
+    "p3": "Director",
+
+    "title4": "Mostafizur Rahman",
+    "p4": "Muhtamim",
+
+    "title5": "Mawlana Nurul Huda",
+    "p5": "Assistant Teacher",
+
+    "title6": "Hafiz Jasim Uddin",
+    "p6": "Assistant Teacher",
+
+    "title7": "Mohammad Tuta Mia",
+    "p7": "Chef"
+      }
+    
     
 }

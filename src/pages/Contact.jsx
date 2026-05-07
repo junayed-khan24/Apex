@@ -6,6 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6";
 import { RiMailUnreadFill } from "react-icons/ri";
+import NetrokonaMap from "./NetrokonaMap";
 
 const Contact = () => {
 
@@ -66,6 +67,8 @@ const Contact = () => {
           </div>
 
         </div>
+
+        <NetrokonaMap></NetrokonaMap>
 
 
       </div>

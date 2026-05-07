@@ -118,19 +118,19 @@ const Hero = () => {
           </div>
 
           {/* Content */}
-          <div className="text-center lg:text-left">
-            <h2 className="text-2xl md:text-3xl font-bold text-[#013622] mb-8">
+          <div className="text-left">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#013622] mb-8 border-2-b pb-2 border-gray-300">
               {t("home.title1")}
             </h2>
 
             <div className="divider text-gray-800"></div>
 
-            <p className="text-base md:text-lg text-gray-700 mb-6   break-all overflow-hidden text-clip line-clamp-">
+            <p className="text-base md:text-lg text-left text-gray-700 mb-6   break-all overflow-hidden text-clip line-clamp-">
               {t("home.desc1")}
             </p>
 
-            <Link to="/about">
-              <button className="btn  py-2 bg-[#013622] text-white px-8 hover:bg-yellow-600 transition-all duration-300">
+            <Link to="/about" >
+              <button className="btn py-2 bg-[#013622] text-white px-8 hover:bg-yellow-600 transition-all duration-300">
                 {t("home.btn")}
               </button>
             </Link>
