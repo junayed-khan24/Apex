@@ -18,10 +18,10 @@ const Donate = () => {
   }, []);
 
   return (
-    <div className="bg-base-100 container mx-auto px-6 md:px-20  py-10">
+    <div className="bg-base-100 container mx-auto px-6 md:px-20 border-2">
 
       {/* ===== Hero Section ===== */}
-      <section className=" py-16 grid md:grid-cols-2 gap-10 items-center">
+      <section className=" py-6 md:py-12 grid md:grid-cols-2 gap-10 items-center">
         
         <div data-aos="fade-right " className="order-2 md:order-1">
           <h1 className="text-2xl md:text-3xl font-bold mb-6  text-[#013622] ">

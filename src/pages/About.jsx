@@ -20,7 +20,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="bg-gray-100 py-10 px-4">
+    <div className="bg-gray-100  px-2 md:px-20 py-4 md:py-8">
 
         <div className="container mx-auto px-6 md:px-20 bg-white p-6 rounded-lg shadow-md">
 

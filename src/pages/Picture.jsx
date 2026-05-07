@@ -71,7 +71,7 @@ const Photos = () => {
           <div className="relative max-w-3xl w-full px-4">
             <button
               onClick={() => setSelectedImg(null)}
-              className="absolute top-2 right-2 btn btn-circle btn-sm"
+              className="absolute top-2 right-2 btn btn-circle bg-white text-black hover:bg-gray-300 transition duration-300 p-2 rounded-4xl font-bold"
             >
               ✕
             </button>
