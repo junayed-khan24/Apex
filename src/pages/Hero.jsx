@@ -125,7 +125,7 @@ const Hero = () => {
 
             <div className="divider text-gray-800"></div>
 
-            <p className="text-base md:text-lg text-left text-gray-700 mb-6   break-all overflow-hidden text-clip line-clamp-">
+            <p className="text-base md:text-lg text-left text-gray-700 mb-6 leading-relaxed  break-all overflow-hidden text-clip line-clamp-">
               {t("home.desc1")}
             </p>
 

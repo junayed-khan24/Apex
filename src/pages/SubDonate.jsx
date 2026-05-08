@@ -40,7 +40,7 @@ const SubDonate = () => {
               <li>📌 {t("donate.p7")}</li>
             </ul>
 
-           <Link to="/contact">
+           <Link to="/donate">
             <button className="btn flex items-center py-2 bg-[#013622] text-white px-6 hover:bg-yellow-600 transition-all duration-300 mt-6" >
               <GiReceiveMoney className="mr-2"  size={24}/> <p>নির্মাণে দান করুন</p>
             </button>

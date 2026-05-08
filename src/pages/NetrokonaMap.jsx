@@ -19,7 +19,7 @@ const NetrokonaMap = () => {
   const position = [24.6895, 90.8343]; // Kendua, Netrokona
 
   return (
-    <div className="w-full h-[400px] rounded-xl overflow-hidden shadow-md">
+    <div className="w-full h-[400px] rounded-xl overflow-hidden shadow-md container mx-auto   ">
       <MapContainer
         center={position}
         zoom={9} 

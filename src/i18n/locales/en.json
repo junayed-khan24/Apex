@@ -15,22 +15,17 @@
     "food": "Healthy Food",
     "shelter": "Safe Shelter"
   },
-
-
   "contact": {
     "title": "Contact Us",
-    "name": "Your Name",
-    "email": "Email",
-    "message": "Message",
-    "send": "Send Message"
+    "p1": "Contact",
+    "p2": "Email",
+    "p3": "Address"
   },
   "donate": {
     "title1": "Support orphaned children and Islamic institutions—let your small donation be a hope for tomorrow 🤲",
     "des1": "Your contribution can have a significant impact on the lives of orphaned children and the development of Islamic institutions. Every donation, no matter how small, helps provide essential needs such as food, education, and shelter. Through this support, you are not only improving the lives of vulnerable children but also contributing to the preservation and promotion of Islamic values. Your help will always remain a source of support for them.",
-
-
     "title2": "Why Should You Donate?",
-    "des2": "Your support can make a meaningful difference in the lives of orphaned children and the growth of Islamic institutions. Every donation, no matter how small, can provide essential resources such as food, education, and shelter to those in need. By supporting these causes, you are not only helping to improve the lives of vulnerable children but also contributing to the preservation and promotion of Islamic values and teachings. Your generosity can be a beacon of hope for those who rely on these institutions for support and guidance." ,
+    "des2": "Your support can make a meaningful difference in the lives of orphaned children and the growth of Islamic institutions. Every donation, no matter how small, can provide essential resources such as food, education, and shelter to those in need. By supporting these causes, you are not only helping to improve the lives of vulnerable children but also contributing to the preservation and promotion of Islamic values and teachings. Your generosity can be a beacon of hope for those who rely on these institutions for support and guidance.",
     "title3": "Under Construction Building",
     "des3": "Our madrasa's new building is under construction, which will be able to provide shelter and education for many more orphan children once completed.",
     "p1": "Total Building Area: 2,750 sq ft per floor",
@@ -39,64 +34,49 @@
     "p4": "Total Area (2 Floors): 5,500 sq ft",
     "p5": "Cost per Square Foot: 3,500 BDT",
     "p6": "Total Construction Cost: 5,500 × 3,500 = 19,250,000 BDT",
-    "p7": "In Words: One Crore Ninenty Two Lakh Fifty Thousand Taka"
-
+    "p7": "In Words: One Crore Ninenty Two Lakh Fifty Thousand Taka",
+    "p8": "A small donation can ensure a student's education. If you help today, tomorrow they will become valuable assets to society. Let us all take part in this humanitarian effort together.",
+     "title": "The Creator is attained through serving His creation",
+  "p9": "Bank Account:",
+  "p10": "(Janata Bank PLC, Kendua Branch, Netrokona)"
   },
-
-
   "about": {
     "title": "Introduction to Gias Uddin Ahmed Hafizia Madrasa",
     "title1": "Founder's grave",
     "p1": "In this institution, students are taught Quran memorization, Noorani Qaida, Tajweed, and the fundamental teachings of Islam in a highly disciplined, planned, and caring manner. Special emphasis is given so that every student can recite the Quran correctly with proper pronunciation and rules. Alongside this, essential Islamic knowledge such as Hadith, Aqeedah, and Fiqh is presented in an easy and understandable way.",
-
     "p2": "Not only academic learning, but equal importance is also given to the overall personality development of students. Special care is taken to build their character, discipline, morality, honesty, empathy, mutual respect, and human values, so that they can grow into responsible, honest, and pious individuals in the future.",
-
     "p3": "For orphans and underprivileged children, this madrasa serves as a safe shelter. Proper and organized arrangements for food and accommodation are provided so that they can continue their education without hardship. They are nurtured in a loving and caring environment, which plays an important role in their mental and moral development.",
-
     "p4": "The institution’s skilled, experienced, and devoted teachers supervise students at all times. Through their guidance and sincere efforts, students regularly study and gradually advance toward deeper knowledge of Islam.",
-
     "p5": "As part of its social service activities, the institution has long been working with dedication and responsibility. By educating and nurturing underprivileged children, it plays an important role in bringing positive change to society.",
- 
     "p6": "This madrasa and orphanage was established by him with the aim of providing religious education, proper upbringing, and a bright future for orphans and underprivileged children. His dream was to build an institution where poor and orphaned children could grow into ideal individuals under the guidance of the Quran and Sunnah. Not only education, but also their living, food, morality, and human values are given special importance here.",
-
     "p7": "Today, through this madrasa and orphanage, many orphaned children are receiving shelter, care, and educational opportunities, and are moving forward towards a brighter path. This noble initiative stands as a unique example for society.",
-
     "p8": "We sincerely pray to Allah Almighty to grant him the best reward for this noble work, make his grave a garden from Paradise, and grant him Jannatul Ferdous. Ameen."
-
-
   },
-    "picture": {
-      "title": "Gallery",
-      "picture1": "Madrasa Building",
-      "picture2": "Old Building",
-      "picture3": "Madrasa Gate",
-      "picture4": "Madrasa Building",
-      "picture5": "Madrasa Pond",
-      "picture6": "Scene of Prayer (Monajat)"
-    },
-
-    "profile": {
-      "title": "Madrasa Teaching Staff",
-        "title1": "Abdullah Al Mamun",
+  "picture": {
+    "title": "Our Gallery",
+    "picture1": "Madrasa Building",
+    "picture2": "Old Building",
+    "picture3": "Madrasa Gate",
+    "picture4": "Madrasa Building",
+    "picture5": "Madrasa Pond",
+    "picture6": "Scene of Prayer (Monajat)"
+  },
+  "profile": {
+    "title": "Madrasa Teaching Staff",
+    "title1": "Abdullah Al Mamun",
     "p1": "President/Chairman",
-
     "title3": "Mufti Arif Rabbani",
     "p3": "Director",
-
     "title4": "Mostafizur Rahman",
     "p4": "Muhtamim",
-
     "title5": "Mawlana Nurul Huda",
     "p5": "Assistant Teacher",
-
     "title6": "Hafiz Jasim Uddin",
     "p6": "Assistant Teacher",
-
     "title7": "Mohammad Tuta Mia",
     "p7": "Chef"
-      },
-
-      "header": {
+  },
+  "header": {
     "p": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيْمِ",
     "title": "Al-Gias Madrasa and Orphanage",
     "title2": "Alhaj Sheikh Gias Uddin Ahmad Nurani Hafezia Madrasa and Orphanage",
@@ -104,6 +84,4 @@
     "p2": "Bank Account: 0100289611341 (Janata Bank PLC, Kendua Branch, Netrokona)",
     "p3": "Bkash Number: 01777777777"
   }
-    
-    
 }
