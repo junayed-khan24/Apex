@@ -22,8 +22,8 @@ const Donate = () => {
       <section className="mt-8 mb-12">
 
         <div className="flex items-center gap-2 mb-6">
-          <FaMosque className="text-3xl text-[#013622]" />
-          <h1 className="text-2xl md:text-4xl font-bold text-[#013622]">
+          <FaMosque className="md:text-3xl text-xl text-[#013622]" />
+          <h1 className="text-xl md:text-4xl font-bold text-[#013622]">
             {t("donate.title")} 
           </h1>
         </div>
