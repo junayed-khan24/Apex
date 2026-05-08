@@ -20,7 +20,7 @@ const NetrokonaMap = () => {
     <div className="w-full h-[400px] rounded-xl overflow-hidden shadow-md">
       <MapContainer
         center={position}
-        zoom={13}
+        zoom={4}
         scrollWheelZoom={true}
         className="w-full h-full"
       >
