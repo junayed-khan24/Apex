@@ -16,13 +16,13 @@ const Donate = () => {
   }, []);
 
   return (
-    <div className="bg-base-100 container mx-auto px-6 md:px-20">
+    <div className="bg-base-100 container mx-auto  px-6 md:px-20">
 
       {/* ===== Bank Account Section ===== */}
-      <section className="mt-8 mb-12">
+      <section className="mt-8 mb-12 ">
 
         <div className="flex items-center gap-2 mb-6">
-          <FaMosque className="md:text-3xl text-xl text-[#013622]" />
+          <FaMosque className="text-4xl text-[#013622]" />
           <h1 className="text-xl md:text-4xl font-bold text-[#013622]">
             {t("donate.title")} 
           </h1>
