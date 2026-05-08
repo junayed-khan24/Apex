@@ -29,7 +29,7 @@ const Header = () => {
           <div className="flex-1">
 
             {/* Bismillah */}
-            <p className="text-lg md:text-xl font-semibold mb-2">
+            <p className="text-xs md:text-xl font-semibold mb-2">
               {t("header.p")}
             </p>
 
