@@ -29,7 +29,7 @@ const Header = () => {
           <div className="flex-1">
 
             {/* Bismillah */}
-            <p className="text-xs md:text-xl font-semibold mb-2">
+            <p className="text-[10px] md:text-xl font-semibold mb-2">
               {t("header.p")}
             </p>
 
@@ -39,20 +39,20 @@ const Header = () => {
             </h1>
 
             {/* Mobile Title */}
-            <h1 className="block md:hidden text-lg font-bold mt-2 leading-snug">
+            <h1 className="block md:hidden text-[14px] font-bold mt-2 leading-snug">
               {t("header.title2")}
             </h1>
 
             {/* Address */}
-            <p className="text-sm md:text-lg opacity-90 mt-2">
+            <p className="text-[10px] md:text-lg opacity-90 md:mt-2 mt-1">
               {t("header.p1")}
             </p>
 
             {/* Bank + Bkash */}
-            <p className="text-sm md:text-lg opacity-90 mt-1">
+            <p className="text-[10px]  md:text-lg opacity-90 md:mt-1">
               {t("header.p2")}
             </p>
-            <p className="text-sm md:text-lg opacity-90 mt-1">
+            <p className="text-[10px] md:text-lg opacity-90 md:mt-1">
               {t("header.p3")}
             </p>
 
