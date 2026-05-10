@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../src/assets/logo.png";
+import Logo from "../../src/assets/finallogo.png";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
@@ -12,9 +12,8 @@ const Header = () => {
       <div className="container mx-auto px-6 md:px-20 py-6 md:py-10">
 
         <div
-          className={`flex items-center gap-4 md:gap-8 ${
-            isArabic ? "flex-row-reverse text-right" : "flex-row text-left "
-          }`}
+          className={`flex items-center gap-4 md:gap-8 ${isArabic ? "flex-row-reverse text-right" : "flex-row text-left "
+            }`}
         >
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -64,4 +63,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; 
