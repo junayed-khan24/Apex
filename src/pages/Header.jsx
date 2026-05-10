@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../src/assets/finallogo.png";
+import Logo from "../../src/assets/download.png";
 import { useTranslation } from "react-i18next";
 
 const Header = () => {
@@ -16,11 +16,11 @@ const Header = () => {
             }`}
         >
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0  bg-white rounded-full shadow-lg">
             <img
               src={Logo}
               alt="Institution Logo"
-              className="h-20 md:h-32 w-20 md:w-32 object-contain rounded-full border-4 border-white shadow-lg"
+              className="h-20 md:h-28 w-20 md:w-28 object-contain rounded-full border-4 border-white shadow-lg"
             />
           </div>
 
