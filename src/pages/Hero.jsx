@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 
-import img1 from "../../src/assets/hero.jpeg";
+import img1 from "../../src/assets/gate.jpeg";
 import img2 from "../../src/assets/Hero3.png";
 import img3 from "../../src/assets/Hero2.png";
 import img4 from "../../src/assets/madrasa.png";
@@ -10,8 +10,8 @@ import { useTranslation } from "react-i18next";
 
 const images = [
   img2,
-  img1,
   img3,
+  img1,
   img4
 ];
 
@@ -123,7 +123,7 @@ const Hero = () => {
               {t("home.title1")}
             </h2>
 
-            
+
 
             <p className="text-base md:text-lg text-left text-gray-700 mb-6 leading-relaxed  break-all overflow-hidden text-clip line-clamp-">
               {t("home.desc1")}
