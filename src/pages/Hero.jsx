@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
 
-import img1 from "../../src/assets/madrasa2.png";
+import img1 from "../../src/assets/hero.jpeg";
 import img2 from "../../src/assets/Hero3.png";
 import img3 from "../../src/assets/Hero2.png";
 import img4 from "../../src/assets/madrasa.png";
 import { useTranslation } from "react-i18next";
 
 const images = [
-  img1,
   img2,
+  img1,
   img3,
   img4
 ];
