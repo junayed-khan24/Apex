@@ -123,7 +123,7 @@ const Hero = () => {
               {t("home.title1")}
             </h2>
 
-            <div className="divider text-gray-800"></div>
+            
 
             <p className="text-base md:text-lg text-left text-gray-700 mb-6 leading-relaxed  break-all overflow-hidden text-clip line-clamp-">
               {t("home.desc1")}
