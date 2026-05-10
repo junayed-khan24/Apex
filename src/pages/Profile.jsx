@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
 
-import img from "../../src/assets/profile.jfif";
+import img from "../../src/assets/nana1.jpg";
 import img2 from "../../src/assets/arif.jpeg";
 import img3 from "../../src/assets/mustafiz.jpeg";
 import img4 from "../../src/assets/nurul.jpeg";
